@@ -101,16 +101,7 @@
     </style> 
 </head> 
 <body> 
-    <audio autoplay muted loop>
-    <source src="MyGirl.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
-
-<script>
-    setTimeout(function() {
-        document.querySelector('audio').muted = false;
-    }, 1000); // Buka mute setelah 1 detik
-</script>
+    <audio autoplay loop src="/MyGirl.mp3"></audio>
     <div class="container"> 
         <div class="box box-top-left"> 
             <img src="/girl1.jpg" alt="Image 1"> 
